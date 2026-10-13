@@ -22,6 +22,9 @@ def main():
             nuovo_responsabile = input("Inserisci il nuovo responsabile: ")
             # TODO: Aggiorna responsabile nel sistema
 
+            deposito.responsabile = nuovo_responsabile
+            print(f"Responsabile aggiornato a: {deposito.responsabile}")
+
         elif scelta == "2":
             while True:
                 try:
